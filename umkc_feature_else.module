@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the umkc-feature-else feature.
+ */
+
+include_once 'umkc_feature_else.features.inc';
