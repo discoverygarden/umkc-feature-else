@@ -467,7 +467,7 @@ function umkc_feature_else_default_fe_block_settings() {
         'weight' => -21,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
