@@ -14,7 +14,7 @@ function umkc_feature_else_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Frontpage browse block';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'browse_collections';
-  $fe_block_boxes->body = '<ul><li class="topic"><a href="/islandora/object" title="Browse by Topic">Topic</a></li><li class="type"><a href="/islandora/object" title="Browse by Type">Type</a></li><li class="collection"><a href="/islandora/object" title="Browse by Collection">Collection</a></li></ul>';
+  $fe_block_boxes->body = '<ul><li class="topic"><a href="/umkc/islandora/object" title="Browse by Topic">Topic</a></li><li class="type"><a href="/umkc/islandora/object" title="Browse by Type">Type</a></li><li class="collection"><a href="/umkc/islandora/object" title="Browse by Collection">Collection</a></li></ul>';
 
   $export['browse_collections'] = $fe_block_boxes;
 
