@@ -200,8 +200,8 @@ function umkc_feature_else_default_fe_block_settings() {
         'weight' => 0,
       ),
       'umkc_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'umkc_theme',
         'weight' => -15,
       ),
