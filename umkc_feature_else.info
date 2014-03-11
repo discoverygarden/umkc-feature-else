@@ -5,6 +5,7 @@ package = Features
 version = 7.x-3.3
 project = umkc_feature_else
 dependencies[] = uuid
+dependencies[] = uuid_path
 dependencies[] = comment
 dependencies[] = fe_block
 dependencies[] = galleria
