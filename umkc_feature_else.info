@@ -4,6 +4,7 @@ core = 7.x
 package = Features
 version = 7.x-3.3
 project = umkc_feature_else
+dependencies[] = uuid
 dependencies[] = comment
 dependencies[] = fe_block
 dependencies[] = galleria
