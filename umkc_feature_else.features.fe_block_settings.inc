@@ -22,23 +22,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -20,
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => -27,
       ),
     ),
     'title' => 'Browse Our Collections',
@@ -55,22 +49,16 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -22,
       ),
     ),
@@ -88,89 +76,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -5,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['google_analytics_reports-dashboard'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'dashboard',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => 'dashboard_inactive',
-        'status' => 1,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'umkc_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -16,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
-  $export['google_analytics_reports-path_mini'] = array(
-    'cache' => 1,
-    'css_class' => '',
-    'custom' => 0,
-    'delta' => 'path_mini',
-    'module' => 'google_analytics_reports',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'umkc_theme' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -17,
       ),
     ),
     'title' => '',
@@ -187,23 +103,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -15,
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -211,7 +121,7 @@ function umkc_feature_else_default_fe_block_settings() {
   );
 
   $export['islandora_compound_object-compound_navigation'] = array(
-    'cache' => 1,
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'compound_navigation',
@@ -220,23 +130,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -14,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -253,23 +157,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => 'islandora-search',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -17,
+        'theme' => 'umkc_scholar',
+        'weight' => -31,
       ),
     ),
     'title' => '<none>',
@@ -286,22 +184,16 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -21,
       ),
     ),
@@ -319,22 +211,16 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -11,
       ),
     ),
@@ -352,23 +238,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -18,
+        'theme' => 'umkc_scholar',
+        'weight' => -32,
       ),
     ),
     'title' => '<none>',
@@ -385,23 +265,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
-        'region' => 'highlighted',
+      'umkc_scholar' => array(
+        'region' => 'hero',
         'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -20,
+        'theme' => 'umkc_scholar',
+        'weight' => -28,
       ),
     ),
     'title' => '<none>',
@@ -418,27 +292,102 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -19,
+        'theme' => 'umkc_scholar',
+        'weight' => -32,
       ),
     ),
     'title' => 'Sort by:',
     'visibility' => 0,
+  );
+
+  $export['islandora_usage_stats-recent_activity'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'recent_activity',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['islandora_usage_stats-top_search'] = array(
+    'cache' => 1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'top_search',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['islandora_usage_stats-top_usage'] = array(
+    'cache' => 1,
+    'css_class' => 'icon-block match-height',
+    'custom' => 0,
+    'delta' => 'top_usage',
+    'module' => 'islandora_usage_stats',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'umkc_scholar' => array(
+        'region' => 'front_boxes',
+        'status' => 1,
+        'theme' => 'umkc_scholar',
+        'weight' => -28,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   $export['locale-language'] = array(
@@ -451,23 +400,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -10,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -484,23 +427,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -18,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -509,7 +446,7 @@ function umkc_feature_else_default_fe_block_settings() {
 
   $export['menu-menu-footer-menu'] = array(
     'cache' => -1,
-    'css_class' => 'footer-menu',
+    'css_class' => '',
     'custom' => 0,
     'delta' => 'menu-footer-menu',
     'module' => 'menu',
@@ -517,23 +454,17 @@ function umkc_feature_else_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'footer',
         'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => -31,
       ),
     ),
     'title' => '<none>',
@@ -547,31 +478,24 @@ function umkc_feature_else_default_fe_block_settings() {
     'delta' => 'menu-side-menu',
     'module' => 'menu',
     'node_types' => array(),
-    'pages' => 'islandora/search
-about',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -22,
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['node-recent'] = array(
@@ -584,23 +508,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_main',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 10,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -4,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -617,22 +535,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => 0,
       ),
     ),
@@ -650,22 +562,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => -1,
-      ),
       'seven' => array(
         'region' => 'dashboard_sidebar',
         'status' => 1,
         'theme' => 'seven',
         'weight' => -10,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -3,
       ),
     ),
@@ -683,23 +589,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -2,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -716,22 +616,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'help',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'help',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'help',
         'status' => 1,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -20,
       ),
     ),
@@ -749,23 +643,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => 'content',
         'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -16,
+        'theme' => 'umkc_scholar',
+        'weight' => -30,
       ),
     ),
     'title' => '',
@@ -782,22 +670,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -9,
       ),
     ),
@@ -815,22 +697,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -8,
       ),
     ),
@@ -848,22 +724,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -7,
       ),
     ),
@@ -881,22 +751,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 10,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 10,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => -6,
       ),
     ),
@@ -914,27 +778,48 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => 2,
       ),
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['umkcdora-umkcdora_mobile_facets'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'umkcdora_mobile_facets',
+    'module' => 'umkcdora',
+    'node_types' => array(),
+    'pages' => 'islandora/search/*',
+    'roles' => array(),
+    'themes' => array(
+      'seven' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'seven',
+        'weight' => -1,
+      ),
+      'umkc_scholar' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'umkc_scholar',
+        'weight' => -1,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 1,
   );
 
   $export['user-login'] = array(
@@ -947,22 +832,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 10,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => 1,
       ),
     ),
@@ -980,22 +859,16 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_sidebar',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
+        'theme' => 'umkc_scholar',
         'weight' => 9,
       ),
     ),
@@ -1013,23 +886,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => 'dashboard_inactive',
         'status' => 1,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 10,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1046,23 +913,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 4,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1079,23 +940,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 3,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1112,23 +967,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 7,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1145,23 +994,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => -17,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1178,23 +1021,17 @@ about',
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -22,
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1211,23 +1048,17 @@ about',
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'umkc_theme',
-        'weight' => -21,
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1244,23 +1075,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 8,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1277,23 +1102,17 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 5,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -1310,23 +1129,71 @@ about',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'umkc_theme' => array(
+      'umkc_scholar' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'umkc_theme',
-        'weight' => 6,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-topics-block_1'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'topics-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['views-topics-block_2'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'topics-block_2',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'umkc_scholar' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'umkc_scholar',
+        'weight' => 0,
       ),
     ),
     'title' => '',

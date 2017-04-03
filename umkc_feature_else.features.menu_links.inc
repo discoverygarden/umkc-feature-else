@@ -10,7 +10,7 @@
 function umkc_feature_else_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_browse:browse
+  // Exported menu link: main-menu_browse:browse.
   $menu_links['main-menu_browse:browse'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'browse',
@@ -27,7 +27,7 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu
+  // Exported menu link: menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu.
   $menu_links['menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'http://library.missouri.edu',
@@ -40,14 +40,14 @@ function umkc_feature_else_menu_default_menu_links() {
       'identifier' => 'menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu',
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 1,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-side-menu_about:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
+  // Exported menu link: menu-side-menu_about:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5.
   $menu_links['menu-side-menu_about:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5'] = array(
     'menu_name' => 'menu-side-menu',
     'link_path' => 'uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5',
@@ -68,7 +68,7 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-side-menu_advanced-search:islandora/search
+  // Exported menu link: menu-side-menu_advanced-search:islandora/search.
   $menu_links['menu-side-menu_advanced-search:islandora/search'] = array(
     'menu_name' => 'menu-side-menu',
     'link_path' => 'islandora/search',
@@ -88,7 +88,7 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-side-menu_conditions-of-use:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
+  // Exported menu link: menu-side-menu_conditions-of-use:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5.
   $menu_links['menu-side-menu_conditions-of-use:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5'] = array(
     'menu_name' => 'menu-side-menu',
     'link_path' => 'uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5',
@@ -109,7 +109,7 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-side-menu_copyright:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
+  // Exported menu link: menu-side-menu_copyright:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5.
   $menu_links['menu-side-menu_copyright:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5'] = array(
     'menu_name' => 'menu-side-menu',
     'link_path' => 'uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5',
@@ -130,7 +130,7 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-side-menu_library-locations:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
+  // Exported menu link: menu-side-menu_library-locations:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5.
   $menu_links['menu-side-menu_library-locations:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5'] = array(
     'menu_name' => 'menu-side-menu',
     'link_path' => 'uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5',
@@ -151,6 +151,7 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
@@ -160,7 +161,6 @@ function umkc_feature_else_menu_default_menu_links() {
   t('Copyright');
   t('Hosted by University of Missouri Library Systems');
   t('Library Locations');
-
 
   return $menu_links;
 }
