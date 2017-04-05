@@ -10,23 +10,6 @@
 function umkc_feature_else_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_browse:browse.
-  $menu_links['main-menu_browse:browse'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'browse',
-    'router_path' => 'browse',
-    'link_title' => 'Browse',
-    'options' => array(
-      'identifier' => 'main-menu_browse:browse',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-  );
   // Exported menu link: menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu.
   $menu_links['menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu'] = array(
     'menu_name' => 'menu-footer-menu',
@@ -156,7 +139,6 @@ function umkc_feature_else_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('About');
   t('Advanced Search');
-  t('Browse');
   t('Conditions of use');
   t('Copyright');
   t('Hosted by University of Missouri Library Systems');
