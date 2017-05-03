@@ -51,26 +51,6 @@ function umkc_feature_else_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: menu-side-menu_advanced-search:islandora/search.
-  $menu_links['menu-side-menu_advanced-search:islandora/search'] = array(
-    'menu_name' => 'menu-side-menu',
-    'link_path' => 'islandora/search',
-    'router_path' => 'islandora/search',
-    'link_title' => 'Advanced Search',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-side-menu_advanced-search:islandora/search',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-  );
   // Exported menu link: menu-side-menu_conditions-of-use:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5.
   $menu_links['menu-side-menu_conditions-of-use:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5'] = array(
     'menu_name' => 'menu-side-menu',
@@ -138,7 +118,6 @@ function umkc_feature_else_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('About');
-  t('Advanced Search');
   t('Conditions of use');
   t('Copyright');
   t('Hosted by University of Missouri Library Systems');

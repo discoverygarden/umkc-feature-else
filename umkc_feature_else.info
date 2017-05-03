@@ -79,7 +79,6 @@ features[menu_custom][] = menu-footer-menu
 features[menu_custom][] = menu-side-menu
 features[menu_links][] = menu-footer-menu_hosted-by-university-of-missouri-library-systems:http://library.missouri.edu
 features[menu_links][] = menu-side-menu_about:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
-features[menu_links][] = menu-side-menu_advanced-search:islandora/search
 features[menu_links][] = menu-side-menu_conditions-of-use:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
 features[menu_links][] = menu-side-menu_copyright:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
 features[menu_links][] = menu-side-menu_library-locations:uuid/node/dcd2f72e-91ee-4c5f-b656-1845ff5c16c5
